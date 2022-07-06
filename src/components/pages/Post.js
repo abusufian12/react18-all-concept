@@ -1,7 +1,7 @@
 import React, {Suspense} from 'react';
 import { QueryClient, QueryClientProvider } from 'react-query';
 
-import FetchDataByAxios from '../dataFetching/fetch_by_axios';
+// import FetchDataByAxios from '../dataFetching/fetch_by_axios';
 import FetchDataByAsync from '../dataFetching/fetch_by_async';
 import FetchDataBySwr from '../dataFetching/swr';
 import FetchDataByReactQuery from '../dataFetching/fetch_by_react_query';

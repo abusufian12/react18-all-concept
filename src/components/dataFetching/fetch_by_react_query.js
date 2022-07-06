@@ -3,8 +3,8 @@ import { useQuery } from 'react-query';
 
 import getQuoteData from '../Api/getQuoteApi';
 
-export default function FetchDataByReactQuery({get_data}){
-    const {data} = useQuery("get_data", () => getQuoteData());
+export default function FetchDataByReactQuery({quote}){
+    const {data} = useQuery("quote", () => getQuoteData());
 
     return(
         <div>
