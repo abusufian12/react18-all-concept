@@ -20,6 +20,9 @@ export default function Navbar(){
             <li>
               <NavLink to="/users" className={(navInfo) => (navInfo.isActive ? styles.active : "")} >Users</NavLink>
             </li>
+            <li>
+              <NavLink to="/hooks" className={(navInfo) => (navInfo.isActive ? styles.active : "")} >Hooks</NavLink>
+            </li>
           </ul>
         </nav>
     );

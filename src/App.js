@@ -7,6 +7,7 @@ import About from "./components/pages/About";
 import Error from "./components/pages/Error";
 import Post from "./components/pages/Post";
 import Navbar from "./components/pages/Navbar";
+import Hooks from "./components/pages/Hooks";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/posts" element={<Post />}></Route>
           <Route path="/users" element={<Users />}></Route>
+          <Route path="/hooks" element={<Hooks />}></Route>
 
           <Route element={<Error />}></Route>
         </Routes>
