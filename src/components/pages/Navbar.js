@@ -21,8 +21,18 @@ export default function Navbar(){
               <NavLink to="/users" className={(navInfo) => (navInfo.isActive ? styles.active : "")} >Users</NavLink>
             </li>
             <li>
-              <NavLink to="/hooks" className={(navInfo) => (navInfo.isActive ? styles.active : "")} >Hooks</NavLink>
+              <NavLink to="/state-up" className={(navInfo) => (navInfo.isActive ? styles.active : "")} >StateUp</NavLink>
             </li>
+            <li>
+              <NavLink to="/hooks" className={(navInfo) => (navInfo.isActive ? styles.active : "")} >Hooks</NavLink>
+              {/* <ul>
+                <li><NavLink to="/link-1" className={(navInfo) => (navInfo.isActive ? styles.active : "")} >Link 1</NavLink></li>
+                <li><NavLink to="/link-2" className={(navInfo) => (navInfo.isActive ? styles.active : "")} >Link 2</NavLink></li>
+                <li><NavLink to="/link-3" className={(navInfo) => (navInfo.isActive ? styles.active : "")} >Link 3</NavLink></li>
+              </ul> */}
+            </li>
+
+            
           </ul>
         </nav>
     );
